@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1> Welcome to My Website </h1>
+
+    <button id='navigationButton'>Learn about my Photography</button>
+    <script>
+        const navigationButton = document.getElementById('navigationButton');
+        navigationButton.addEventListener('click', function() {
+            window.location.href = 'photo.html';
+        });
+    </script>
+
+    <h2> About Aria </h2>
+
+    <p>I am a fourth-year student at Northeastern University in Boston, MA, majoring in 
+        Business Administration with a concentration in Finance and minoring in Data Science 
+        and Economics. One of my interests that I have really developed outside of my academics 
+        and extracurriculars is hiking with my dog, Aria. Born in Pennsylvania, Aria is a 
+        four-year-old Australian Shepherd that currently lives in Massachusetts with my family. 
+        Together, we have hiked and walked through Mount Wachusett, Mount Monadnock, Acadia National 
+        Park, the Bruce Freeman Trail, the Blue Hills Reservation, and a lot more. I got into hiking 
+        because as the pandemic regulations became less restrictive, I wanted to get outside and explore
+         nature. Thankfully, I had Aria, who was a young puppy then, to motivate me as her breed is highly
+          energetic and needs a lot of exercise anyways. In this way, I feel that Aria has kept me on track. 
+          Through hiking, I have also further practiced with my passion in photography as a lot of the hikes 
+          offer scenic views of the land below, fun pictures of animals and rock patters, and great shot 
+          opportunities of my friends and family. I hope to try hiking in the winter as I feel like that 
+          would be new and perhaps refreshing, and Aria loves to play in the snow (and eat it!). The image below 
+        is of Aria at Mount Monadnock </p>
+
+        <img src="Aria.jpg" alt="Aria on a hike" width="500">
+
+    <h3 class="contact">Contact Me</h3>
+    <ul class="contact-info">
+        <li>Email: <a href="mailto:pathrose.m@northeastern.edu">pathrose.m@northeastern.edu</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/michelle-pathrose/" target="_blank">LinkedIn</a></li>
+    </ul>
